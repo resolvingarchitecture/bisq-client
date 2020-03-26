@@ -8,7 +8,9 @@ pub struct BisqClient {
 
 impl BisqClient {
     pub fn new() -> BisqClient {
-        BisqClient {}
+        BisqClient {
+
+        }
     }
     pub fn init(&mut self) {
         info!("{}","Initializing Bisq Client...");
